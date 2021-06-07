@@ -20,7 +20,8 @@
         "log": "console",
         "will": false,
         "reside": false,
-        "mesv": "1.0.0"
+        "mesv": "1.0.0",
+        "experimental": false
     },
     "vendor": {
         "id": "000000",
