@@ -19,7 +19,8 @@
     "will": false,
     "reside": false,
     "mesv": "1.3.7",
-    "experimental": false
+    "experimental": false,
+    "resource": "public"
   },
   "vendor": {
     "id": "000000",
