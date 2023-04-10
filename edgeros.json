@@ -1,37 +1,42 @@
 {
-  "name": "default",
-  "bundleid": "com.example.myapp",
-  "ignore_modules": [
-    "@edgeros/eslint-plugin-jsre",
-    "@edgeros/jsre-types"
-  ],
-  "ignore_path": [
-    "./test/**",
-    "./temp/**"
-  ],
-  "assets": {
-    "ico_big": "assets/big.png",
-    "ico_small": "assets/small.png"
-  },
-  "program": {
-    "gss": false,
-    "log": "console",
-    "will": false,
-    "reside": false,
-    "mesv": "1.3.7",
-    "experimental": false,
-    "resource": "public"
-  },
-  "vendor": {
-    "id": "000000",
-    "name": "mycompany",
-    "email": "example@example.com",
-    "phone": "123456789",
-    "fax": ""
-  },
-  "update": {
-    "remove": [
-      "public"
-    ]
-  }
+    "name": "default",
+    "bundleid": "com.example.myapp",
+    "ignore_modules": [
+        "@edgeros/eslint-plugin-jsre",
+        "@edgeros/jsre-types"
+    ],
+    "ignore_path": [
+        "./test/**",
+        "./temp/**"
+    ],
+    "assets": {
+        "ico_big": "assets/big.png",
+        "ico_small": "assets/small.png",
+        "splash": "assets/splash.png"
+    },
+    "program": {
+        "gss": false,
+        "log": "console",
+        "will": false,
+        "reside": false,
+        "mesv": "1.3.7",
+        "experimental": false,
+        "resource": "public"
+    },
+    "vendor": {
+        "id": "000000",
+        "name": "mycompany",
+        "email": "example@example.com",
+        "phone": "123456789",
+        "fax": ""
+    },
+    "loading": {
+        "background": "#000000",
+        "animation": "enlarge"
+    },
+    "update": {
+        "remove": [
+            "public"
+        ]
+    }
 }

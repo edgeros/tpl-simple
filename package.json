@@ -1,18 +1,17 @@
 {
-  "name": "com.example.default",
-  "version": "0.0.1",
-  "description": "",
-  "repository": "https://github.com/edgeros/tpl-simple.git",
-  "main": "main.js",
-  "scripts": {
-    "build": "eos build"
-  },
-  "license": "MIT",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "eslint": "^7.23.0",
-    "@edgeros/jsre-types": "latest",
-    "@edgeros/eslint-plugin-jsre": "^0.0.3"
-  }
+    "name": "com.example.default",
+    "version": "0.0.2",
+    "description": "",
+    "repository": "https://github.com/edgeros/tpl-simple.git",
+    "main": "main.js",
+    "scripts": {
+        "build": "eos build"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^7.23.0",
+        "@edgeros/jsre-types": "latest",
+        "@edgeros/eslint-plugin-jsre": "latest"
+    }
 }
